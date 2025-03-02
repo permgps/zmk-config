@@ -73,7 +73,7 @@ ZMK_COMBO(paste,    &kp LS(INS), LB1 LB2, ALL)  // paste, active on all layers
 
 ZMK_LAYER(default_layer,
      // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-          &kp Q         &kp W         &kp F         &kp P         &kp B             &kp J         &kp L         &kp U         &kp Y         &kp SQT
+          &euro_sign         &de_ue         &de_ae         &de_eszett         &de_oe             &kp J         &kp L         &kp U         &kp Y         &kp SQT
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
           &hml LGUI A   &hml LALT R   &hml LCTRL S  &hml LSHFT T  &kp G             &kp M         &hmr RSHFT N  &hmr LCTRL E  &hmr LALT I   &hmr LGUI O
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
