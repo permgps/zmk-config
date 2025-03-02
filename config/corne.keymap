@@ -10,13 +10,11 @@
 
 / {
     macros {
-        zed_em_kay: zed_em_kay {
+        macro_comma: macro_comma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
+                = <&macro_tap &kp LS(KC_DOT)>
                 ;
         };
     };
