@@ -12,12 +12,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        macro_comma {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp LS(KP_DOT)>;
-        };
-
         macros {
             macro_comma: macro_comma {
                 compatible = "zmk,behavior-macro";
