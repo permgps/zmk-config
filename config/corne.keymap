@@ -12,10 +12,11 @@
     macros {
         my_5_r_1_1: my_5_r_1_1 {
             compatible = "zmk,behavior-macro";
-            bindings =
-                <&macro_press   &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N4>,
-                <&macro_release &kp LALT>;
+            bindings 
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N4>
+                , <&macro_release &kp LALT>
+                ;
             label = "MY_5_R_1_1";
             wait-ms = <40>;
             tap-ms = <40>;
