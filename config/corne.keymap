@@ -12,11 +12,9 @@
     keymap {
         compatible = "zmk,keymap";
 
-        behaviors {
-            text_comma {
-                compatible = "zmk,behavior-text-input";
-                text = ",";
-            };
+        macro_comma {
+            compatible = "zmk,behavior-macro";
+            bindings = <&macro_tap &kp LS(KC_DOT)>; // Shift + . = ,
         };
 
         default_layer {
