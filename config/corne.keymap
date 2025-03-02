@@ -12,10 +12,10 @@
     keymap {
         compatible = "zmk,keymap";
 
-        macros {
-            macro_comma {
-                compatible = "zmk,behavior-macro";
-                bindings = <&macro_tap &str ",">;
+        behaviors {
+            text_comma {
+                compatible = "zmk,behavior-text-input";
+                text = ",";
             };
         };
 
