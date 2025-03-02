@@ -12,13 +12,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        macros {
-            macro_comma {
-                compatible = "zmk,behavior-macro";
-                bindings = <&macro_tap &unicode 0x002C>; // Код Unicode для запятой
-            };
-        };
-
         default_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
