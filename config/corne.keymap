@@ -14,7 +14,7 @@
 
         macro_comma {
             compatible = "zmk,behavior-macro";
-            bindings = <&macro_tap &kp LS(KC_DOT)>; // Shift + . = ,
+            bindings = <&macro_tap &kp LS(KP_DOT)>;
         };
 
         default_layer {
