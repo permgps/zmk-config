@@ -14,7 +14,20 @@
 
         macro_comma {
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(KP_DOT)>;
+        };
+
+        macros {
+            macro_comma: macro_comma {
+                compatible = "zmk,behavior-macro";
+                #binding-cells = <0>;
+                bindings
+                    = <&macro_press &kp LSHFT>
+                    , <&macro_tap &kp Z &kp M &kp K>
+                    , <&macro_release &kp LSHFT>
+                    ;
+            };
         };
 
         default_layer {
