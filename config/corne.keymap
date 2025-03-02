@@ -9,21 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        my_5_r_1_1: my_5_r_1_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings 
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N4>
-                , <&macro_release &kp LALT>
-                ;
-            label = "MY_5_R_1_1";
-            wait-ms = <40>;
-            tap-ms = <40>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -92,10 +77,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &my_5_r_1_1  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PIPE  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans  &trans
             >;
         };
 
