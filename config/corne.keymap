@@ -13,157 +13,208 @@
         macro_comma: macro_comma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N4 &kp KP_N4>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N4 &kp KP_N4>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_dot: macro_dot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N4 &kp KP_N6>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N4 &kp KP_N6>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_colon: macro_colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N5 &kp KP_N8>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N5 &kp KP_N8>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_semicolon: macro_semicolon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N5 &kp KP_N9>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N5 &kp KP_N9>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_greater: macro_greater {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N6 &kp KP_N2>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N6 &kp KP_N2>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_less: macro_less {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N6 &kp KP_N0>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N6 &kp KP_N0>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_slash: macro_slash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N4 &kp KP_N7>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N4 &kp KP_N7>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_pipe: macro_pipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N2 &kp KP_N4>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N1 &kp KP_N2 &kp KP_N4>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_amp: macro_amp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N3 &kp KP_N8>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N3 &kp KP_N8>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_question: macro_question {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N6 &kp KP_N3>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N6 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_exclamation: macro_exclamation {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N3 &kp KP_N3>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N3 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_openbracket: macro_openbracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N9 &kp KP_N1>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N9 &kp KP_N1>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_closebracket: macro_closebracket {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N9 &kp KP_N3>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N9 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_opencurly: macro_opencurly {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N2 &kp KP_N3>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N1 &kp KP_N2 &kp KP_N3>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_closecurly: macro_closecurly {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N1 &kp KP_N2 &kp KP_N5>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N1 &kp KP_N2 &kp KP_N5>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_openparenthesis: macro_openparenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N4 &kp KP_N0>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N4 &kp KP_N0>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         macro_closeparenthesis: macro_closeparenthesis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N4 &kp KP_N1>
-                , <&macro_release &kp LALT>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N4 &kp KP_N1>,
+                <&macro_release>,
+                <&kp LALT>;
         };
     };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -175,10 +226,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC          &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P          &kp EQUAL
-&kp TAB               &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H      &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LGUI SEMI  &kp SQT
+&kp ESC       &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P          &kp EQUAL
+&kp TAB       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H      &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LGUI SEMI  &kp SQT
 &kp LS(LALT)  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp MINUS
-                                              &mo 4        &lt 1 LEFT   &lt 5 SPACE    &lt 6 RET  &lt 2 RIGHT  &lt 3 BSPC
+                                      &mo 4        &lt 1 LEFT   &lt 5 SPACE    &lt 6 RET  &lt 2 RIGHT  &lt 3 BSPC
             >;
         };
 
@@ -190,10 +241,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE     &kp F1                 &kp F2                 &kp F3              &kp F4                   &kp F5             &kp F6           &kp F7                   &kp F8                     &kp F9                 &kp F10                &trans
-&trans         &mt LEFT_GUI NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LEFT_SHIFT NUMBER_4  &kp NUMBER_5       &kp NUMBER_6     &mt LEFT_SHIFT NUMBER_7  &mt LEFT_CONTROL NUMBER_8  &mt LEFT_ALT NUMBER_9  &mt LEFT_GUI NUMBER_0  &trans
-&kp PAGE_DOWN  &kp PG_UP              &kp HOME               &kp INSERT          &kp END                  &kp DELETE         &kp PRINTSCREEN  &macro_comma             &macro_dot                 &macro_colon           &macro_semicolon       &trans
-                                                             &trans              &trans                   &kp SPACE          &kp RET          &trans                   &trans
+&kp ESCAPE     &kp F1                 &kp F2                 &kp F3              &kp F4                   &kp F5          &kp F6           &kp F7                   &kp F8                     &kp F9                 &kp F10                &trans
+&trans         &mt LEFT_GUI NUMBER_1  &mt LEFT_ALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LEFT_SHIFT NUMBER_4  &kp NUMBER_5    &kp NUMBER_6     &mt LEFT_SHIFT NUMBER_7  &mt LEFT_CONTROL NUMBER_8  &mt LEFT_ALT NUMBER_9  &mt LEFT_GUI NUMBER_0  &trans
+&kp PAGE_DOWN  &kp PG_UP              &kp HOME               &kp INSERT          &kp END                  &kp DELETE      &kp PRINTSCREEN  &macro_comma             &macro_dot                 &macro_colon           &macro_semicolon       &kp SQT
+                                                             &trans              &trans                   &kp SPACE       &kp RET          &trans                   &trans
             >;
         };
 
