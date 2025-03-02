@@ -9,6 +9,24 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        my_5_r_1_1: my_5_r_1_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp KP_NUMBER_0>,
+                <&macro_release>,
+                <&kp KP_NUMBER_1 &kp &kp>;
+
+            label = "MY_5_R_1_1";
+            wait-ms = <40>;
+            tap-ms = <40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -20,10 +38,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P          &kp EQUAL
-&kp TAB    &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H      &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LGUI SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp MINUS
-                                   &mo 4        &lt 1 LEFT   &lt 5 SPACE    &lt 6 RET  &lt 2 RIGHT  &lt 3 BSPC
+&kp ESC               &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P          &kp EQUAL
+&kp TAB               &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H      &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LGUI SEMI  &kp SQT
+&kp LS(LEFT_CONTROL)  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N      &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp MINUS
+                                              &mo 4        &lt 1 LEFT   &lt 5 SPACE    &lt 6 RET  &lt 2 RIGHT  &lt 3 BSPC
             >;
         };
 
