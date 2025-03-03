@@ -283,10 +283,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &macro_pipe  &macro_opencurly        &macro_closecurly        &macro_openbracket  &macro_closebracket  &macro_exclamation
-&trans  &trans  &trans  &trans  &trans  &trans    &macro_amp   &macro_comma            &macro_dot               &macro_colon        &macro_semicolon     &macro_question
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &macro_openparenthesis  &macro_closeparenthesis  &macro_less         &macro_greater       &macro_slash
-                        &trans  &trans  &trans    &trans       &trans                  &trans
+&trans  &trans                    &trans                &trans          &trans             &kp TILDE       &macro_pipe  &macro_opencurly        &macro_closecurly        &macro_openbracket  &macro_closebracket  &macro_exclamation
+&trans  &mt LEFT_GUI EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LCTRL HASH  &mt LSHFT PERCENT  &kp ASTERISK    &macro_amp   &macro_comma            &macro_dot               &macro_colon        &macro_semicolon     &macro_question
+&trans  &trans                    &trans                &trans          &trans             &trans          &trans       &macro_openparenthesis  &macro_closeparenthesis  &macro_less         &macro_greater       &macro_slash
+                                                        &trans          &trans             &trans          &trans       &trans                  &trans
             >;
         };
 
